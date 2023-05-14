@@ -17,6 +17,17 @@ const goatBotAnonchatCommand = {
       en: "Manage AnonChat account"
     },
     category: "anonchat"
+    guide: {
+      vi : "", // add vi if you are using 'vi' language 
+			en:  "❏[anonchat <create>] Create an anonchat account."
+          +"\n❏[anonchat <info>] See your anonchat account information."
+          +"\n❏[anonchat <change>] Change your anonchat name, username, or password."
+          +"\n❏[anonchat <sendreq>] Send a pairing request to another user."
+          +"\n❏[anonchat <pair>] Pair with someone who has accepted your request."
+          +"\n❏[anonchat <dismiss>] Dismiss your current pairing."
+          +"\n❏[anonchat <delete>] Delete your anonchat account."
+          +"\n❏[anonchat <link>] Link your anonchat account with this bot."		
+		},
   },
 
   onStart: async function({ api, event, commandName }) {
